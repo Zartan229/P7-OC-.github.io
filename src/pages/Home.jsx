@@ -1,5 +1,8 @@
+import HeaderM from '../components/Header/_Header-m'
+import Body from '../components/Body/_Body'
+
 export default function Home() {
-    return <h2>Home Sweet Home</h2>;
+    return <><HeaderM/><Body/></>;
   }
 
 
