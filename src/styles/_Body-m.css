@@ -1,3 +1,5 @@
+@media (min-width: 375px) {
+
 .section1{
     margin-top: 16px;
     margin-left: 20px;
@@ -57,3 +59,51 @@
     font-size: 18px;
 
 }
+}
+@media (min-width: 992px) {
+
+    .section1{
+        margin-top: 89px;
+        height: 248px;
+        margin-left: 7%;
+        margin-right: 6%;
+    }
+    .body_presentation{
+        position: absolute;
+        top: unset;
+        left: unset;
+        transform: unset;
+        width: 100%;
+        height: 224px;
+        border-radius: 19px;
+    }
+    .body_presentation-text{
+        color: white;
+        text-align: left;
+        font-size: 50px;
+        line-height: 29px;
+        position: relative;
+        top: 38%;
+        left: 22%;
+    
+    
+    }
+    .section2{
+        background-color: #F7F7F7;
+        margin-left: 7%;
+        margin-right: 6%;
+    margin-top: 19px;
+    border-radius: 20px;
+  
+    }
+    .card{
+        margin-top: 55px;
+        width: 340px;
+        border-radius: 11px;
+        height: 340px;
+    }
+    .title{
+        top: 266px;
+        left: 9px;    
+    }
+  }
