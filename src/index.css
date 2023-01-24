@@ -16,3 +16,7 @@ header{
   font-family: 'Montserrat';
 font-style: normal;
 }
+
+*{
+  box-sizing: border-box;
+}

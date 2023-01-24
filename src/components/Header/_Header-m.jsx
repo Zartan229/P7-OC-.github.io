@@ -2,10 +2,10 @@ import '../../styles/_Header-m.css'
 import Logo from '../../images/LOGO.png'
 export default function Banner() {
     return <header>
-        <img src={Logo} alt="image restau" />
+        <img src={Logo} alt="Logo" />
         <nav>
-            <h2 class="nav_text">Accueil</h2>
-            <h2 class="nav_text">A propos</h2>
+            <h2 className="nav_text">Accueil</h2>
+            <h2 className="nav_text">A propos</h2>
         </nav>
 
 
@@ -14,5 +14,5 @@ export default function Banner() {
 
 
 
-    </header>;
+    </header>
   }
