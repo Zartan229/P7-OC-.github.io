@@ -20,3 +20,7 @@ font-style: normal;
 *{
   box-sizing: border-box;
 }
+html{
+  max-width: 1500px;
+  margin: auto;
+}

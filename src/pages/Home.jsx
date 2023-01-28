@@ -1,8 +1,16 @@
-import HeaderM from '../components/Header/_Header-m'
-import Body from '../components/Body/_Body'
-import Footer from '../components/Footer/_Footer-m'
+import Header from "../components/Header/Header";
+import Housing from "../components/Housing";
+import Footer from "../components/Footer/Footer";
+import Banner from "../components/Banner/index";
+import image from "../images/pres.png"
+
 export default function Home() {
-    return <><HeaderM/><Body/><Footer/></>;
-  }
-
-
+  return (
+    <>
+      <Header/>
+      <Banner image={image}/>
+      <Housing />
+      <Footer />
+    </>
+  );
+}

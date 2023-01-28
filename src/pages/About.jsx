@@ -1,7 +1,16 @@
-import HeaderM from '../components/Header/_Header-m'
-import Footer from '../components/Footer/_Footer-m'
-import Body from '../components/Body/_Body-about'
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import Body from "../components/Body/Body-about";
+import Banner from "../components/Banner-about/index";
+import img from '../images/about-pres-mobile.png'
 
 export default function About() {
-    return <><HeaderM/><Body/><Footer/></>;
-  }
+  return (
+    <>
+      <Header />
+      <Banner image={img}/>
+      <Body />
+      <Footer />
+    </>
+  );
+}

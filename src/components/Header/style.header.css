@@ -1,0 +1,51 @@
+@media (min-width: 375px) {
+    header{
+    display : flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 47px;
+    align-items: center;
+    
+    }  
+    nav{
+        display: flex;
+        justify-content: space-between;
+      width: 135px;
+      height: 33px;
+    }
+    
+    .nav_text{
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 142.6%;
+    text-transform: uppercase
+    }
+    
+    .nav_text:hover{
+        text-decoration: underline;
+    }
+    }
+    @media (min-width: 992px) {
+      header{
+        height: 61px;
+    
+      }
+      .header-logo{
+        height: 68px;
+        width: 211px;
+        margin-left: 80px;
+        margin-top: 46px;
+      }
+      nav{
+        justify-content: space-evenly;
+        width: 393px;
+    }
+    .nav_text{
+      color: #FF6060;
+      text-transform: unset;
+      font-size: 23px;
+      }
+    }

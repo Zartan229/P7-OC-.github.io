@@ -1,29 +1,23 @@
-import '../../styles/_Body-m.css'
-import img from '../../images/pres.png'
+import './style.housing.css'
 import Logements from '../../data/logements.json'
+import Card from '../Card/Card'
         
 
-export default function Body() {
+export default function Housing() {
 
-    return<> <section className='section1'>
-        <img className='body_presentation' src={img} alt="Présentation"/>
-        <div className='body_presentation-text'>Chez vous, partout et ailleurs</div>
-    </section>
+    return<> 
+
     <section className='section2'>
 
-{    Logements.map(logement => {
-    return(
-             <div key={logement.id} className='card'>
-                <img className='card-image' src={logement.cover} alt="Couverture"/>
-            <h3 className='title'>{logement.title}</h3>
-        </div>
-        )})
+  {  Logements.map(logement => { 
+    return <Card id={logement.id} title={logement.title} cover={logement.cover}/>
+    
+  })
 }
-       
     </section>
     </>
-  }
-
+  
+}
 //   export default function Body() {
 //     return<> <section className='section1'>
 //         <img className='body_presentation' src={img}/>

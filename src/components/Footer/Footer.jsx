@@ -1,6 +1,6 @@
 import Logo from '../../images/Logo-footer.png'
-import '../../styles/_Footer-m.css'
-export default function Body() {
+import './style.footer.css'
+export default function Footer() {
 
     return <footer>
       <img className='footer-logo' src={Logo} alt="Logo"/>
