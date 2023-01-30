@@ -47,5 +47,9 @@
       color: #FF6060;
       text-transform: unset;
       font-size: 23px;
+      
+      }
+      a {
+        text-decoration: none;
       }
     }

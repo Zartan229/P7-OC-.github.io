@@ -3,7 +3,7 @@
 @media (min-width: 375px) {
 .card{
     margin-top: 22px;
-    width: 335px;
+    width: 100%;
     border-radius: 11px;
     height: 255px;
     overflow: hidden;

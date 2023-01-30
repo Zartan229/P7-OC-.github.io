@@ -8,6 +8,7 @@
         position: relative;
         overflow: hidden;
         border-radius: 11px;
+        
     }
     .body_presentation{
         position: absolute;
@@ -37,15 +38,17 @@
         height: 248px;
         margin-left: 7%;
         margin-right: 6%;
+        
     }
     .body_presentation{
         position: absolute;
         top: unset;
         left: unset;
         transform: unset;
-        width: 100%;
+        width: 99%;
         height: 224px;
         border-radius: 19px;
+        
     }
     .body_presentation-text{
         color: white;

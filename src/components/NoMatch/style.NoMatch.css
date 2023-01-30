@@ -1,0 +1,66 @@
+
+
+@media (min-width: 375px) {
+    .section404{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div404{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 195px;
+    }
+    
+    .title404{
+    width: 198px;
+    height: 99px;
+    
+    }
+    
+    .text404{
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        color: #FF6060;
+        line-height: 20px;
+    }
+    
+    .link404{
+        margin-top: 111px;
+        color: #FF6060;
+    }
+      }
+      @media (min-width: 992px) {
+        .title404{
+            width: 42%;
+            height: 210px;
+            padding-left: 28px;
+            content:url("../../images/404-D.png");
+}
+            
+            
+            .div404{
+
+                margin-top: 225px;
+                width: 100%;
+            }
+            .text404{
+                font-weight: 500;
+                font-size: 39px;
+                text-align: center;
+                padding-left: unset;
+                padding-right: unset;
+                color: #FF6060;
+                line-height: 64px;
+                margin-top: 81px;
+            }
+            .link404{
+                margin-top: 138px;
+                font-size: 21px;
+            }
+      }
+    

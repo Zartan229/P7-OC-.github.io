@@ -1,0 +1,25 @@
+
+@media (min-width: 375px) {
+    .section2{
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-wrap: wrap;
+    }
+    
+    }
+    @media (min-width: 992px) {
+        .section2{
+    margin-left: 7%;
+    margin-right: 7%;
+
+    padding-left: 47px;
+    padding-right: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    background-color: #F7F7F7;
+    justify-content: space-between;
+    border-radius: 28px;
+    margin-top: 21px;
+    }
+    }

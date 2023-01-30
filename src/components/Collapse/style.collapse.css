@@ -61,6 +61,7 @@ align-items: center;
     .styleCollapse{
       height: 46px;
       font-size: 24px;
+      margin-top: 20px;
     }
     .textCollapse{    
     font-size: 24px;
