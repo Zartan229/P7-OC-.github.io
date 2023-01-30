@@ -1,0 +1,19 @@
+
+
+@media (min-width: 375px) {
+    .section2-about{
+        margin-top: 15px;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    @media (min-width: 992px) {
+     .section2-about{
+        margin-top: 12px;
+        width: 71%;
+        margin-left: 14.4%;
+     }
+
+    }
