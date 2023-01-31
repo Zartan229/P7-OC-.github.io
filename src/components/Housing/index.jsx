@@ -3,6 +3,7 @@ import Logements from '../../data/logements.json'
 import Card from '../Card/Card'
         
 
+
 export default function Housing() {
 
     return<> 
