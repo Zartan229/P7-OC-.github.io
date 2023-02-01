@@ -1,0 +1,31 @@
+
+
+
+.section-carrousel{
+    margin-top: 27px;
+    position: relative;
+
+}
+
+.image-slideshow{
+    width: 89%;
+    height: 255px;
+    margin-left: 5%;
+    border-radius: 13px;
+}
+
+.Slideshow-left{
+position: absolute;
+height: 20px;
+width: 12px;
+left: 7%;
+top: 46%;
+}
+.Slideshow-right{
+    position: absolute;
+    height: 20px;
+width: 12px;
+right: 7%;
+    top: 46%;
+
+}

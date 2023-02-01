@@ -2,8 +2,9 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner-about/index";
 import Footer from "../components/Footer/Footer";
 import img from '../images/about-pres-mobile.png'
-import Carrousel from "../components/Carrousel";
+import Slideshow from "../components/Carrousel";
 import Logements from '../data/logements.json'
+import CollapseLoging from "../components/Collapse-loging";
 
 let urlRequest = new URL(window.location.href);
 
@@ -23,7 +24,8 @@ export default function Loging() {
     return (
       <>
         <Header/>
-        <Carrousel image={data.pictures} />
+        <Slideshow image={data.pictures} />
+        <CollapseLoging description={data.description} equipements={data.equipments}/>
         <Footer />
       </>
     );
