@@ -52,12 +52,12 @@ export default function Slideshow({ image }) {
       }
       console.log(i)
   };
-
   return (
     <section className="section-carrousel">
       <img className="image-slideshow" src={isSlide} />
-      <input className="Slideshow-left" type="image" src={left} onClick={handleNext} />
-      <input className="Slideshow-right" type="image" src={right} onClick={handlePrevious} />
+      <input style={{display: image.length > 1 ? 'block' : 'none' }} className="Slideshow-left" type="image" src={left}  onClick={handlePrevious} />
+      <input style={{display: image.length > 1 ? 'block' : 'none' }} className="Slideshow-right" type="image" src={right}onClick={handleNext} />
+      <p style={{display: image.length > 1 ? 'block' : 'none' }} className="Slideshow-number" >{i + 1} / {image.length}</p>
     </section>
   );
 

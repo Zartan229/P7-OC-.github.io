@@ -1,0 +1,22 @@
+@media (min-width: 375px) {
+  .body_presentation12 {
+    margin-left: 5%;
+    margin-top: 17px;
+    border-radius: 10px;
+    height: 223px;
+    width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  .section12 {
+    margin-top: 54px;
+  }
+  .body_presentation12 {
+    height: 223px;
+    width: 86%;
+    margin-left: 7%;
+    border-radius: 23px;
+    content: url("../../images/about-pres.png");
+    height: 223px;
+  }
+}

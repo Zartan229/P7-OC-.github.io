@@ -4,7 +4,7 @@ import Collapse from '../Collapse/Collapse'
 
 
 
-export default function BodyAbout() {
+export default function AboutPage() {
 
     return<> 
     <section className='section2-about'>
