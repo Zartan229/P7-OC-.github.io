@@ -9,12 +9,12 @@ footer{
     flex-direction: column;
 }
 
-.footer-logo{
+.footerLogo{
 
     width: 122px;
     height: 39.44px;
 }
 
-.footer-text{
+.footerText{
     color: white;
 }

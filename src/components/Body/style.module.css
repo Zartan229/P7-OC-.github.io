@@ -1,7 +1,7 @@
 
 
 @media (min-width: 375px) {
-    .section2-about{
+    .section2About{
         margin-top: 15px;
         width: 90%;
         margin-left: 5%;
@@ -10,7 +10,7 @@
     }
     }
     @media (min-width: 992px) {
-     .section2-about{
+     .section2About{
         margin-top: 12px;
         width: 71%;
         margin-left: 14.4%;

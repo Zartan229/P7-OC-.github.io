@@ -1,9 +1,9 @@
 import Logo from '../../images/Logo-footer.png'
-import './style.footer.css'
+import classes from './style.module.css'
 export default function Footer() {
 
     return <footer>
-      <img className='footer-logo' src={Logo} alt="Logo"/>
-      <p className='footer-text'>© 2020 Kasa. All rights reserved</p>
+      <img className={classes.footerLogo} src={Logo} alt="Logo"/>
+      <p className={classes.footerText}>© 2020 Kasa. All rights reserved</p>
     </footer>
   }

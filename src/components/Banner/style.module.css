@@ -17,7 +17,7 @@
         transform: translate(-50%, -50%);
     }
     
-    .body_presentation-text{
+    .body_presentationText{
         color: white;
         text-align: left;
         font-size: 26px;
@@ -50,7 +50,7 @@
         border-radius: 19px;
         
     }
-    .body_presentation-text{
+    .body_presentationText{
         color: white;
         text-align: left;
         font-size: 50px;

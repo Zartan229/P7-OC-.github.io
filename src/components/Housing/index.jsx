@@ -1,4 +1,4 @@
-import './style.housing.css'
+import classes from './style.module.css'
 import Logements from '../../data/logements.json'
 import Card from '../Card/Card'
         
@@ -8,7 +8,7 @@ export default function Housing() {
 
     return<> 
 
-    <section className='section2'>
+    <section className={classes.section2}>
 
   {  Logements.map(logement => { 
     return <Card id={logement.id} title={logement.title} cover={logement.cover}/>

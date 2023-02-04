@@ -3,27 +3,27 @@
 
 
 
-    .section-carrousel{
+    .sectionCarrousel{
         margin-top: 27px;
         position: relative;
     
     }
     
-    .image-slideshow{
+    .imageSlideshow{
         width: 89%;
         height: 255px;
         margin-left: 5%;
         border-radius: 13px;
     }
     
-    .Slideshow-left{
+    .SlideshowLeft{
     position: absolute;
     height: 20px;
     width: 12px;
     left: 7%;
     top: 46%;
     }
-    .Slideshow-right{
+    .SlideshowRight{
         position: absolute;
         height: 20px;
     width: 12px;
@@ -31,38 +31,38 @@
         top: 46%;
     
     }
-    .Slideshow-number{
+    .SlideshowNumber{
         display: none;
     }
     
       }
       @media (min-width: 992px) {
-        .section-carrousel{
+        .sectionCarrousel{
             margin-top: 47px;
             position: relative;
         
         }
-        .image-slideshow{
+        .imageSlideshow{
             width: 86%;
             height: 414px;
             margin-left: 7%;
             border-radius: 25px;
         }
-        .Slideshow-left{
+        .SlideshowLeft{
             position: absolute;
             height: 79px;
             width: 46px;
             left: 9%;
     top: 38%;
             }
-            .Slideshow-right{
+            .SlideshowRight{
                 position: absolute;
                 height: 79px;
                 width: 46px;
                 top: 36%;
                 right: 9%;
             }
-            .Slideshow-number{
+            .SlideshowNumber{
                 display: block;
                 position: absolute;
                 top: 83%;

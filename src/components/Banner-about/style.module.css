@@ -1,5 +1,5 @@
 @media (min-width: 375px) {
-  .body_presentation12 {
+  .body_presentationAbout {
     margin-left: 5%;
     margin-top: 17px;
     border-radius: 10px;
@@ -8,10 +8,10 @@
   }
 }
 @media (min-width: 992px) {
-  .section12 {
+  .sectionAbout {
     margin-top: 54px;
   }
-  .body_presentation12 {
+  .body_presentationAbout {
     height: 223px;
     width: 86%;
     margin-left: 7%;

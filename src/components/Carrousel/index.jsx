@@ -1,4 +1,4 @@
-import "./style.carrousel.css";
+import classes from './style.module.css'
 import left from "../../images/Vector-l.png";
 import right from "../../images/Vector-r.png";
 
@@ -53,11 +53,11 @@ export default function Slideshow({ image }) {
       console.log(i)
   };
   return (
-    <section className="section-carrousel">
-      <img className="image-slideshow" src={isSlide} />
-      <input style={{display: image.length > 1 ? 'block' : 'none' }} className="Slideshow-left" type="image" src={left}  onClick={handlePrevious} />
-      <input style={{display: image.length > 1 ? 'block' : 'none' }} className="Slideshow-right" type="image" src={right}onClick={handleNext} />
-      <p style={{display: image.length > 1 ? 'block' : 'none' }} className="Slideshow-number" >{i + 1} / {image.length}</p>
+    <section className={classes.sectionCarrousel}>
+      <img className={classes.imageSlideshow} src={isSlide} />
+      <input style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowLeft} type="image" src={left}  onClick={handlePrevious} />
+      <input style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowRight} type="image" src={right}onClick={handleNext} />
+      <p style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowNumber} >{i + 1} / {image.length}</p>
     </section>
   );
 
