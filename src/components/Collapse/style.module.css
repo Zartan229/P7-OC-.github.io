@@ -39,10 +39,10 @@
     width: 18.50px;
     height: 18.50px;
 } 
-  .collapse-content.collapsed {
+  .collapsedContentcollapsed {
     display: none;
   }
-  .collapsed-content.expanded {
+  .collapsedContentexpanded {
     display: block;
     background-color: #F7F7F7;
     width: 100%;

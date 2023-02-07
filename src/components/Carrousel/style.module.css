@@ -32,7 +32,7 @@
     
     }
     .SlideshowNumber{
-        display: none;
+        display: none !important;
     }
     
       }
@@ -63,7 +63,7 @@
                 right: 9%;
             }
             .SlideshowNumber{
-                display: block;
+                display: block !important;
                 position: absolute;
                 top: 83%;
                 left: 49%;

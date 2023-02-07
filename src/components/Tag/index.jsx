@@ -1,13 +1,14 @@
-import './style.tag.css'
+import classes from "./style.module.css";
 
-export default function Tag({tags, location, ratings, title}) {
+export default function Tag({ tags }) {
 
-    return<section className='sectionTags'>
-        <h3 className='titleTags'>{title}</h3>
-        <h4>{location}</h4>
-        <div>{tags}</div>
-        <div>{ratings}</div>
-        <div>img et duma</div>
-    </section>
-  
+  {
+    return <div className={classes.tagStyle}>
+    {tags.map(tag => (  
+          <div className={classes.tag}>  
+            {tag}  
+          </div>  
+        ))}  
+    </div>
+  }
 }

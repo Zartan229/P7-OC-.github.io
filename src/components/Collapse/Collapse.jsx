@@ -1,4 +1,4 @@
-import "./style.collapse.css";
+import classes from './style.module.css'
 import ArrowUp from "../../images/arrow-up.png";
 import ArrowDown from "../../images/arrow-down.png";
 import { useState } from "react";
@@ -18,13 +18,13 @@ export default function Collapse ({title, description }) {
 
   return (
     <>
-      <button className="collapse-button styleCollapse" onClick={() => setIsCollapsed(!isCollapsed)}>
+      <button className={classes.styleCollapse} onClick={() => setIsCollapsed(!isCollapsed)}>
 
         {title}
 
-        <img className="imageCollapse" src={isCollapsed ? ArrowDown : ArrowUp} alt="Arrow" />
+        <img className={classes.imageCollapse} src={isCollapsed ? ArrowDown : ArrowUp} alt="Arrow" />
       </button>
-      <div className={`textCollapse collapse-content ${isCollapsed ? "collapsed" : "expanded"} `} aria-expanded={!isCollapsed}>
+      <div className={`${classes.textCollapse} ${isCollapsed ? classes.collapsedContentcollapsed : classes.collapsedContentexpanded}`} aria-expanded={!isCollapsed}>
         {description}
       </div>
     </>

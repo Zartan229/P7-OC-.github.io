@@ -5,7 +5,7 @@ import img from "../images/about-pres-mobile.png";
 import Slideshow from "../components/Carrousel";
 import logements from "../data/logements.json";
 import CollapseLoging from "../components/Collapse-loging";
-import Tag from "../components/Tag/index";
+import Info from "../components/Info/index";
 import { redirect, useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -16,30 +16,27 @@ import { useEffect } from "react";
 
 export default function Loging() {
   const { id } = useParams();
-  console.log(id);
+ // console.log(id);
 
   const data = logements.find((logement) => logement.id === id);
-  console.log(data);
+//  console.log(data);
   
-  const {pictures, tags, location, description, title, equipments, ratings} = data
+  const {pictures, tags, location, description, title, equipments, rating, host} = data || {};
 
   const navigate = useNavigate();
   
   useEffect(() => (!data ? navigate("/*") : undefined));
-  //   if (!data) {
-  //     navigate("/*");
-  //   }
-  // }, []);
 
   return (
     <>
       { !data ? (
+        
         <h1>redirect</h1>
-      ) : (
+      ) : ( 
         <>
       <Header />
       <Slideshow image={pictures} />
-      <Tag tags={tags} location={location} ratings={ratings} title={title} />
+      <Info tags={tags} location={location} rating={rating} title={title} host={host}/>
       <CollapseLoging description={description} equipments={equipments} />
       <Footer />
       </>

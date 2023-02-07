@@ -1,0 +1,29 @@
+.tagStyle{
+    display: flex;
+    margin-left: -4px;
+    flex-wrap: wrap;
+
+}
+
+.tag{
+    background-color: #FF6060;
+    color: white;
+    min-width: 84px;
+    min-height: 18px;
+    margin: 5px;
+    /* padding: 0px; */
+    border-radius: 6px;
+    font-size: 10px;
+    text-align: center;
+}
+@media (min-width: 992px) {
+    .tag{
+        min-width: 115px;
+        min-height: 25px;
+        align-items: center;
+        font-size: 14px;
+    }
+    .tagStyle{
+        margin-top: 19px;
+    }
+}

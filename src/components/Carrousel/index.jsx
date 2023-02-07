@@ -57,7 +57,7 @@ export default function Slideshow({ image }) {
       <img className={classes.imageSlideshow} src={isSlide} />
       <input style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowLeft} type="image" src={left}  onClick={handlePrevious} />
       <input style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowRight} type="image" src={right}onClick={handleNext} />
-      <p style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowNumber} >{i + 1} / {image.length}</p>
+      <p style={{display: image.length > 1 ? 'block' : 'none ' }} className={classes.SlideshowNumber} >{i + 1} / {image.length}</p>
     </section>
   );
 
