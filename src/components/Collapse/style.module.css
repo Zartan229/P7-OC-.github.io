@@ -13,6 +13,10 @@
     position: relative;
 
 }
+.ColEquipments{
+  list-style-type: none;
+  padding-inline-start: 10px;
+}
 
 .textCollapse{    
   background-color: #F7F7F7;

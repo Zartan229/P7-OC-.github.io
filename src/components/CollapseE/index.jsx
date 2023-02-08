@@ -1,4 +1,4 @@
-import classes from './style.module.css'
+import classes from '../Collapse/style.module.css'
 import ArrowUp from "../../images/arrow-up.png";
 import ArrowDown from "../../images/arrow-down.png";
 import { useState } from "react";
@@ -12,7 +12,8 @@ import { useState } from "react";
 //     </button>
 //   }
 
-export default function Collapse ({title, description}) {
+export default function Collapse ({title, equipments }) {
+console.log(equipments)
 
   const [isCollapsed, setIsCollapsed] = useState(true);
 
@@ -25,7 +26,11 @@ export default function Collapse ({title, description}) {
         <img className={classes.imageCollapse} src={isCollapsed ? ArrowDown : ArrowUp} alt="Arrow" />
       </button>
       <div className={`${classes.textCollapse} ${isCollapsed ? classes.collapsedContentcollapsed : classes.collapsedContentexpanded}`} aria-expanded={!isCollapsed}>
-      {description}
+      <ul className={classes.ColEquipments}>
+      {equipments.map(item => {
+        return <li>{item}</li>
+      })}
+      </ul>
       </div>
     </>
   );
