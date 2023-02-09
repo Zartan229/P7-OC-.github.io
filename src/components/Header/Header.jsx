@@ -1,5 +1,6 @@
 import classes from './style.module.css'
 import Logo from '../../images/LOGO.png'
+
 export default function Header() {
     return <header>
         <img className={classes.headerLogo} src={Logo} alt="Logo" />

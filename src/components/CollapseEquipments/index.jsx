@@ -13,7 +13,7 @@ import { useState } from "react";
 //   }
 
 export default function CollapseE ({title, equipments }) {
-console.log(equipments)
+
 
   const [isCollapsed, setIsCollapsed] = useState(true);
 
