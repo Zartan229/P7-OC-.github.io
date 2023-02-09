@@ -54,9 +54,9 @@ export default function Slideshow({ image }) {
   };
   return (
     <section className={classes.sectionCarrousel}>
-      <img className={classes.imageSlideshow} src={isSlide} />
-      <input style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowLeft} type="image" src={left}  onClick={handlePrevious} />
-      <input style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowRight} type="image" src={right}onClick={handleNext} />
+      <img alt="Carrousel" className={classes.imageSlideshow} src={isSlide} />
+      <input alt="Flêche diriger vers la gauche" style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowLeft} type="image" src={left}  onClick={handlePrevious} />
+      <input alt="Flêche diriger vers la droite" style={{display: image.length > 1 ? 'block' : 'none' }} className={classes.SlideshowRight} type="image" src={right}onClick={handleNext} />
       <p style={{display: image.length > 1 ? 'block' : 'none ' }} className={classes.SlideshowNumber} >{i + 1} / {image.length}</p>
     </section>
   );

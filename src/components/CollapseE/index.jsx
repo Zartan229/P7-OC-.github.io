@@ -12,7 +12,7 @@ import { useState } from "react";
 //     </button>
 //   }
 
-export default function Collapse ({title, equipments }) {
+export default function CollapseE ({title, equipments }) {
 console.log(equipments)
 
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -27,8 +27,8 @@ console.log(equipments)
       </button>
       <div className={`${classes.textCollapse} ${isCollapsed ? classes.collapsedContentcollapsed : classes.collapsedContentexpanded}`} aria-expanded={!isCollapsed}>
       <ul className={classes.ColEquipments}>
-      {equipments.map(item => {
-        return <li>{item}</li>
+      {equipments.map((item, key) => {
+        return <li key={key}>{item}</li>
       })}
       </ul>
       </div>

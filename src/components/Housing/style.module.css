@@ -1,5 +1,5 @@
 
-@media (min-width: 375px) {
+
     .section2{
 
         margin-left: 5%;
@@ -7,7 +7,7 @@
         flex-wrap: wrap;
     }
     
-    }
+    
     @media (min-width: 992px) {
         .section2{
     margin-left: 7%;

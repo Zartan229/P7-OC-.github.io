@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+
   .body_presentationAbout {
     margin-left: 5%;
     margin-top: 17px;
@@ -6,7 +6,7 @@
     height: 223px;
     width: 90%;
   }
-}
+
 @media (min-width: 992px) {
   .sectionAbout {
     margin-top: 54px;

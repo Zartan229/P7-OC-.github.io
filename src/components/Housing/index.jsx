@@ -10,8 +10,8 @@ export default function Housing() {
 
     <section className={classes.section2}>
 
-  {  Logements.map(logement => { 
-    return <Card id={logement.id} title={logement.title} cover={logement.cover}/>
+  {  Logements.map((logement, key) => { 
+    return <Card key={key} id={logement.id} title={logement.title} cover={logement.cover}/>
     
   })
 }

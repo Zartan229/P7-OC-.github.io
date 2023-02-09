@@ -1,6 +1,6 @@
 
 
-@media (min-width: 375px) {
+
     .section404{
         display: flex;
         flex-direction: column;
@@ -33,7 +33,7 @@
         margin-top: 111px;
         color: #FF6060;
     }
-      }
+      
       @media (min-width: 992px) {
         .title404{
             width: 42%;

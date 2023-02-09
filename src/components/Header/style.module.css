@@ -1,4 +1,7 @@
-@media (min-width: 375px) {
+
+  a {
+    text-decoration: none;
+  }
     header{
     display : flex;
     justify-content: space-between;
@@ -22,12 +25,13 @@
     font-size: 12px;
     line-height: 142.6%;
     text-transform: uppercase
+    
     }
     
     .nav_text:hover{
         text-decoration: underline;
     }
-    }
+    
     @media (min-width: 992px) {
       header{
         height: 61px;
@@ -49,7 +53,5 @@
       font-size: 23px;
       
       }
-      a {
-        text-decoration: none;
-      }
+
     }

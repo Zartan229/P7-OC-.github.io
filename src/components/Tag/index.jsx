@@ -4,8 +4,8 @@ export default function Tag({ tags }) {
 
   {
     return <div className={classes.tagStyle}>
-    {tags.map(tag => (  
-          <div className={classes.tag}>  
+    {tags.map((tag, key) => (  
+          <div key={key} className={classes.tag}>  
             {tag}  
           </div>  
         ))}  

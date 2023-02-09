@@ -1,12 +1,11 @@
 import Header from "../components/Header/Header";
-import Banner from "../components/Banner-about/index";
 import Footer from "../components/Footer/Footer";
-import img from "../images/about-pres-mobile.png";
-import Slideshow from "../components/Carrousel";
+
+import Slideshow from "../components/Slideshow";
 import logements from "../data/logements.json";
 import CollapseLoging from "../components/Collapse-loging";
 import Info from "../components/Info/index";
-import { redirect, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 
 // let urlRequest = new URL(window.location.href);

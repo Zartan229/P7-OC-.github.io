@@ -14,7 +14,10 @@ import { useState } from "react";
 
 export default function Collapse ({title, description}) {
 
+
+  
   const [isCollapsed, setIsCollapsed] = useState(true);
+
 
   return (
     <>
