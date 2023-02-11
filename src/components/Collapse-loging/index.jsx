@@ -1,4 +1,4 @@
-import Collapse from "../Collapse/Collapse";
+import Collapse from "../Collapse/index";
 import classes from "./style.module.css";
 
 export default function CollapseLoging({ description, equipments }) {

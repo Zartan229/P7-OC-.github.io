@@ -1,6 +1,6 @@
-import Header from "../components/Header/Header";
-import NomMatchBody from "../components/NoMatch/NoMatch"
-import Footer from "../components/Footer/Footer";
+import Header from "../components/Header";
+import NomMatchBody from "../components/NoMatchBody/index"
+import Footer from "../components/Footer";
 
 export default function NoMatch() {
   return (

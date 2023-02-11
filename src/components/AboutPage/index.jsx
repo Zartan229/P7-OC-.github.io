@@ -1,6 +1,6 @@
 
 import classes from './style.module.css'
-import Collapse from '../Collapse/Collapse'
+import Collapse from '../Collapse/index'
 
 
 

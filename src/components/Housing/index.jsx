@@ -1,6 +1,6 @@
 import classes from "./style.module.css";
 import Logements from "../../data/logements.json";
-import Card from "../Card/Card";
+import Card from "../Card/index";
 
 export default function Housing() {
   return (

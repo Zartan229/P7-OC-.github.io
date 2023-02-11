@@ -1,5 +1,5 @@
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/index";
+import Footer from "../components/Footer/index";
 import AboutPage from "../components/AboutPage";
 import Banner from "../components/BannerAbout/index";
 import img from '../images/about-pres-mobile.png'

@@ -1,6 +1,6 @@
-import Header from "../components/Header/Header";
+import Header from "../components/Header/index";
 import Housing from "../components/Housing";
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/index";
 import Banner from "../components/Banner/index";
 import image from "../images/pres.png"
 
