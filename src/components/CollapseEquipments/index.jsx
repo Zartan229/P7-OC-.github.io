@@ -12,7 +12,7 @@ import { useState } from "react";
 //     </button>
 //   }
 
-export default function CollapseE ({title, equipments }) {
+export default function CollapseEquipments ({title, equipments }) {
 
 
   const [isCollapsed, setIsCollapsed] = useState(true);

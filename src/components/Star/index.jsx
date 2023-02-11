@@ -1,6 +1,6 @@
 import classes from "./style.module.css";
-import StarGray from '../../images/Star.png'
-import StarColor from '../../images/StarColor.png'
+import StarGray from '../../images/Star.svg'
+import StarColor from '../../images/StarColor.svg'
 
 
 export default function Star({rating}) {

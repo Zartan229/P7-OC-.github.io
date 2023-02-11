@@ -12,7 +12,7 @@ import { useState } from "react";
 //     </button>
 //   }
 
-export default function Collapse ({title, description}) {
+export default function Collapse ({title, description, equipments}) {
 
 
   
@@ -28,7 +28,16 @@ export default function Collapse ({title, description}) {
         <img className={classes.imageCollapse} src={isCollapsed ? ArrowDown : ArrowUp} alt="Arrow" />
       </button>
       <div className={`${classes.textCollapse} ${isCollapsed ? classes.collapsedContentcollapsed : classes.collapsedContentexpanded}`} aria-expanded={!isCollapsed}>
-      {description}
+      {description ? ( 
+        <>{description}</>)
+         : (
+      <ul className={classes.ColEquipments}>
+      {equipments.map((item, key) => {
+        return <li key={key}>{item}</li>
+      })}
+      </ul>)}
+      
+     
       </div>
     </>
   );

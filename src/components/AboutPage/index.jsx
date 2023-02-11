@@ -6,7 +6,7 @@ import Collapse from '../Collapse/Collapse'
 
 export default function AboutPage() {
 
-    return<> 
+    return( 
     <section className={classes.sectionAbout}>
     <Collapse title="Fiabilité" description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes 
     aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."/>
@@ -18,5 +18,5 @@ export default function AboutPage() {
     correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de 
     vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."/>
     </section>
-    </>
+    )
   }

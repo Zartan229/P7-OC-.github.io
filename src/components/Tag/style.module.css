@@ -2,6 +2,7 @@
     display: flex;
     margin-left: -4px;
     flex-wrap: wrap;
+    
 
 }
 
@@ -15,6 +16,8 @@
     border-radius: 6px;
     font-size: 10px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 @media (min-width: 992px) {
     .tag{

@@ -70,6 +70,7 @@
 .infoImage{
     width: 64px;
     height: 64px;
+    margin: 5px;
 }
 .userInfo{
     font-weight: 500;
