@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 
 import Slideshow from "../components/Slideshow";
 import logements from "../data/logements.json";
-import CollapseLoging from "../components/Collapse-loging";
 import Info from "../components/Info/index";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
@@ -35,8 +34,7 @@ export default function Loging() {
         <>
       <Header />
       <Slideshow image={pictures} />
-      <Info tags={tags} location={location} rating={rating} title={title} host={host}/>
-      <CollapseLoging description={description} equipments={equipments} />
+      <Info tags={tags} location={location} rating={rating} title={title} host={host} description={description} equipments={equipments}/>
       <Footer />
       </>
       )}
