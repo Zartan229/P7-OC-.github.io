@@ -1,6 +1,3 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 import Slideshow from "../components/Slideshow";
 import logements from "../data/logements.json";
 import Info from "../components/Info/index";
@@ -32,10 +29,8 @@ export default function Loging() {
         <h1>redirect</h1>
       ) : ( 
         <>
-      <Header />
       <Slideshow image={pictures} />
       <Info tags={tags} location={location} rating={rating} title={title} host={host} description={description} equipments={equipments}/>
-      <Footer />
       </>
       )}
       </>
