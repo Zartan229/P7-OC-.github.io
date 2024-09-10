@@ -1,6 +1,5 @@
 import classes from "./style.module.css";
 import ArrowUp from "../../images/arrow-up.png";
-import ArrowDown from "../../images/arrow-down.png";
 import { useState } from "react";
 
 export default function Collapse({ title, description, equipments }) {
@@ -16,9 +15,9 @@ export default function Collapse({ title, description, equipments }) {
 
         <img
           className={`${classes.imageCollapse} ${
-            isCollapsed ? classes.rotateDown : classes.rotateUp
+            isCollapsed ? classes.rotateUp : classes.rotateDown
           }`}
-          src={isCollapsed ? ArrowDown : ArrowUp}
+          src={ArrowUp}
           alt="Arrow"
         />
       </button>
