@@ -13,7 +13,6 @@ function App() {
           <Route path="/loging/:id" element={<Loging/>}  />
           <Route path="*" element={<NoMatch />} />
         </Routes>
-      {/* </div> */}
     </Router>
   );
 }
