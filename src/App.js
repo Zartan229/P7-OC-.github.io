@@ -4,9 +4,11 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Loging from './pages/Loging'
 import NoMatch from "./pages/NoMatch";
+import Header from "./components/Header/index";
 function App() {
   return (
     <Router>
+          <Header/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>}   />          

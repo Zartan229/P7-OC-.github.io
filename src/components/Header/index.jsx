@@ -1,12 +1,34 @@
-import classes from './style.module.css'
-import Logo from '../../images/LOGO.png'
+import classes from "./style.module.css";
+import Logo from "../../images/LOGO.png";
+import { useLocation, Link } from "react-router-dom";
 
 export default function Header() {
-    return <header>
-        <img className={classes.headerLogo} src={Logo} alt="Logo" />
-        <nav>
-        <a href="/"><h2 className={classes.nav_text}>Accueil</h2></a>
-        <a href="/about"><h2 className={classes.nav_text}>A propos</h2></a>
-        </nav>
+  const location = useLocation();
+  const Accueil = location.pathname === "/";
+  const APropos = location.pathname === "/about";
+  return (
+    <header>
+      <img className={classes.headerLogo} src={Logo} alt="Logo" />
+      <nav>
+        <Link to="/">
+          <h2
+            className={`${classes.nav_text} ${
+              Accueil ? classes.nav_textLink : ""
+            }`}
+          >
+            Accueil
+          </h2>
+        </Link>
+        <Link to="/about">
+          <h2
+            className={`${classes.nav_text} ${
+              APropos ? classes.nav_textLink : ""
+            }`}
+          >
+            A propos
+          </h2>
+        </Link>
+      </nav>
     </header>
-  }
+  );
+}
